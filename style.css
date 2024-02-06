@@ -133,14 +133,14 @@ main{
     border-radius: 10px;
 }
 .Map{
-    background-image: url(/images/Map.png);
+    background-image: url(./images/Map.png);
     background-size: cover;
 }
 .Profile{
-    background-image: url(/images/Profile.png);
+    background-image: url(./images/Profile.png);
     background-size: cover;
 }
 .Social{
-    background-image: url(/images/Chat.png);
+    background-image: url(./images/Chat.png);
     background-size: cover;
 }
