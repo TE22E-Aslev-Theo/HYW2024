@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navigation">
+
+        <div class="Lightmode"><button class="switch"></button></div>
+        <button class="Map"><img src="" alt="Maps"></button>
+        <button class="Profile"><img src="" alt="Profile"></button>
+        <button class="Social"><img src="" alt="Social"></button>
+
+    </nav>
+
+    <main>
+
+    <div class="flex1">
+        <article><img src="mentor3.jpg" alt="Mentor"><h1>Mentors Programet</h1></article>
+        <p> Lokala Jobb </p>
+        <article><img src="Jobb1.jpg" alt="Jobb"><h1>Café söker arbetare</h1></article>
+        <article><img src="Jobb2.jpg" alt="Jobb"><h1>Ubisoft söker arbetare</h1></article>
+    </div>
+
+    <div class="flex2">
+        <p><h2>Lokala Nyheter</h2></p>
+        <article><img src="Nyhet.png" alt="Nyhet1"><h1>Ica stänger</h1></article>
+        <article><img src="Nyhet2.webp" alt="Nyhet2"><h1>NTI Odenplan vinner HWY 2024</h1></article>
+        <article><img src="juridik.jpg" alt="Nyhet3"><h1>Ai</h1></article>
+    </div>
+
+    </main>
+    
+
+    <script src="script.js">
+
+    </script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "ba025c41-6a28-41ac-aa2a-63b25939b2fc", // The ID of this integration.
+          region: "eu-de", // The region your integration is hosted in.
+          serviceInstanceID: "0585783d-2bb4-45dc-bf1a-83590e2791a5", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
