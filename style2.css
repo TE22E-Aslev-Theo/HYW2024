@@ -1,0 +1,51 @@
+#Top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 350px;
+  }
+  #Leave {
+    margin-right: 65px;
+  }
+  #icon {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  #Input {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    margin: 0px;
+    margin-top: 100px;
+    width: 100%;
+  }
+  #Camera,
+  #Emojis,
+  #Send {
+    margin: 5px;
+  }
+  #Text1 {
+    margin-right: 250px;
+    background-color: gray;
+  }
+  #Text2 {
+    margin-left: 250px;
+    background-color: gray;
+  }
+  h1
+  {
+    margin-bottom: 5px;
+  }
+  h2
+  {
+    margin-top: 5px;
+  }
+  p 
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+  body {
+    user-select: none;
+    margin: 0px;
+  }
